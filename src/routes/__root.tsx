@@ -76,10 +76,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Automate emails, summarize meetings, plan tasks, and research smarter with Workly AI." },
       { name: "author", content: "Workly AI" },
       { property: "og:title", content: "Workly AI — AI Workplace Productivity Assistant" },
-      { property: "og:description", content: "The futuristic AI workspace for modern teams." },
+      { property: "og:description", content: "Automate emails, summarize meetings, plan tasks, and research smarter with Workly AI." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Workly AI — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Automate emails, summarize meetings, plan tasks, and research smarter with Workly AI." },
     ],
     links: [
       {

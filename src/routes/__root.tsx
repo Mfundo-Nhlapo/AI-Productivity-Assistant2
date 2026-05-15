@@ -72,16 +72,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Workly AI — AI Workplace Productivity Assistant" },
-      { name: "description", content: "Automate emails, summarize meetings, plan tasks, and research smarter with Workly AI." },
-      { name: "author", content: "Workly AI" },
-      { property: "og:title", content: "Workly AI — AI Workplace Productivity Assistant" },
-      { property: "og:description", content: "Automate emails, summarize meetings, plan tasks, and research smarter with Workly AI." },
+      { title: "Mfundo Nhlapo — Knowledge Management & AI Automation" },
+      { name: "description", content: "Portfolio of Mfundo Nhlapo — using AI tools to automate and ease everyday business tasks." },
+      { name: "author", content: "Mfundo Nhlapo" },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Workly AI — AI Workplace Productivity Assistant" },
-      { name: "twitter:description", content: "Automate emails, summarize meetings, plan tasks, and research smarter with Workly AI." },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
